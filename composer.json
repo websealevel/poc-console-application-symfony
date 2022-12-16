@@ -1,0 +1,17 @@
+{
+    "name": "wsl/poc-console-application",
+    "autoload": {
+        "psr-4": {
+            "Wsl\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "websealevel",
+            "email": "contact@websealevel.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^6.2"
+    }
+}
