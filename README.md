@@ -24,14 +24,17 @@ chmod +x app
 
 Les arguments sont ordonnés et non nommés. Ce sont des chaînes de caractères séparées par des espaces. Ils peuvent être optionnels ou requis.
 
-~~~php
-./app sayHi Foo Bar
+~~~bash
+./app say-hi Foo Bar
 ~~~
 
 ### Options
 
 Les options, contrairement aux arguments, ne sont pas ordonnées. On peut les écrire à n'importe quelle position et ils sont précédés de 2 dashes. Par exemple `--foo` ou  `--bar=baz`. Souvent une option vient avec un nom raccourci (qui s'écrit avec un dash). Les options sont **toujours optionnelles** 
 
+~~~bash
+./app say-hi Foo Bar Baz --polite
+~~~
 
 
 ## Ressources
