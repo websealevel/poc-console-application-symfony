@@ -43,3 +43,4 @@ Les options, contrairement aux arguments, ne sont pas ordonnées. On peut les é
 - [Console Commands](https://symfony.com/doc/current/console.html)
 - [Commands Lifecycle](https://symfony.com/doc/current/console.html#command-lifecycle)
 - [Console Input (Arguments & Options)](https://symfony.com/doc/current/console/input.html)
+- [Learn more](https://symfony.com/doc/current/components/console.html#learn-more)
